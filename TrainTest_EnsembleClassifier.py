@@ -55,7 +55,7 @@ def single_test(seed, results_path):
         print("The re-labeled test set has been generated correctly!")
 
 if __name__ == "__main__":
-    num_test = 1
+    num_test = 20
     seed = Confs.parameters_general["seed"]
     np.random.seed(seed)
     seeds =  np.random.rand(num_test)
