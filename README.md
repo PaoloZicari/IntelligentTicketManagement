@@ -5,3 +5,17 @@ Intelligent Ticket Management System is Deep Ensemble Neural Network model used 
 Two ensemble combiners are provided: Stacking and MOE.
 Moreover, explanation is supported with the generation of word clouds and LIME (Locally Interpretable Model-agnostic Explanations) methods.
 
+# Authors
+The code is developed and maintained by Paolo Zicari, Gianluigi Folino, Massimo Guarascio and Luigi Pontieri (p.zicari@dimes.unical.it , gianluigi.folino@icar.cnr.it, massimo.guarascio@icar.cnr.it, luigi.pontieri@icar.cnr.it)
+
+# Usage
+First, download this repo:
+
+You need to have 'python3' installed.
+You also need to install 'numpy', 'pandas==1.0.3', and 'sklearn <=0.21', 'imbalanced-learn==0.5.0', 'Keras==2.2.4' and 'tensorflow==1.14.0'.
+
+Then, you can run:
+ - TrainingTest_EnsembleClassifier.py
+ - explanation.py
+
+For training and testing the ensemble model, Endava Dataset is used. To download Endava Dataset go to https://github.com/gabrielpreda/Support-Tickets-Classification
