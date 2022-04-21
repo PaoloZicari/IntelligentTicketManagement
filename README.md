@@ -10,7 +10,7 @@ The code is developed and maintained by Paolo Zicari, Gianluigi Folino, Massimo 
 First, download this repo.
 
 You need to have 'python3' installed.
-You also need to install 'numpy', 'pandas==1.0.3', and 'sklearn <=0.21', 'imbalanced-learn==0.5.0', 'Keras==2.2.4' and 'tensorflow==1.14.0'.
+You also need to install 'numpy', 'pandas==1.1.5', and 'sklearn <=0.21', 'imbalanced-learn==0.7.0', 'attention=3.0' and 'tensorflow==2.4.0'.
 
 Then, you can run:
 python TrainTest_EnsembleClassifier.py
